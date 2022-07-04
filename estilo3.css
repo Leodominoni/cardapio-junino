@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); /*Titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;   
+}
+.bg{
+    background-image: url("img/doces.png");
+    background-repeat: no-repeat;
+}
+
+nav {
+    margin-top: 220px;
+    width: 1100px;
+    height: 25px;
+    background-color: #183b52;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 10px 10px 0 0;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+
+}
+nav a:hover{
+    background-color: #4e9dd2;
+    padding: 1px;
+}
+
+main{
+    margin: auto;
+    width: 1114px;
+    background-color: #e9ddc3;
+    text-align: left;
+}
+main h1{
+    font-family:'Anton', sans-serif;
+    font-weight: 400;
+    color: #183b52;
+    padding: 8px;
+}
+table{
+    margin: auto;
+    width: 1100px;
+    text-align: center;
+}
+.photos{
+    padding: 5px;
+    width: 350px;
+    height: 250px;
+}
+table h2{
+    color: #183b52;
+    font-family:'Anton', sans-serif;
+    font-weight: 300;
+}
+table p{
+    text-indent: 5px;
+    text-align: justify;
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+}
+button{
+    background: #4e9dd2; 
+    border-radius: 6px; 
+    padding: 10px; 
+    cursor: pointer; 
+    color: #fff; 
+    border: none; 
+    font-size: 16px;   
+}
+button:hover{
+    background: #183b52; 
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100;
+    color: #183b52;
+}
+#carrinho{
+    margin-top: 20px;
+    margin-left: 498px;
+    background: #183b52; 
+    border-radius: 6px; 
+    padding: 10px; 
+    cursor: pointer; 
+    color: #fff; 
+    border: none; 
+    font-size: 16px;   
+    margin-bottom: 20px;
+}
+footer{
+    width: 1114px;
+    height: 22px;
+    background-color: #183b52;
+    color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+}
+footer p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
