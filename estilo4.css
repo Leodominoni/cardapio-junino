@@ -36,8 +36,24 @@ nav a:hover{
 main{
     margin: auto;
     width: 1114px;
-    background-color: #e9ddc3;
+    height: 860px;
+    background-color: #white;
     text-align: left;
+}
+#dog{
+    float: right;
+}
+#carrinho{
+    margin-top: 20px;
+    margin-left: 498px;
+    background: #183b52; 
+    border-radius: 6px; 
+    padding: 10px; 
+    cursor: pointer; 
+    color: #fff; 
+    border: none; 
+    font-size: 16px;   
+    margin-bottom: 20px;
 }
 footer{
     width: 1114px;
